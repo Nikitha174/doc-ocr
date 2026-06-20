@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+pdf2image==1.17.0
+opencv-python-headless==4.10.0.84
+numpy<2
+paddleocr==2.7.3
+paddlepaddle==2.6.2
+pytesseract==0.3.10
+Pillow==10.3.0
+
+# System dependencies (install separately, not via pip):
+# - poppler-utils      (for pdf2image)  -> apt-get install poppler-utils
+# - tesseract-ocr       (for pytesseract) -> apt-get install tesseract-ocr
